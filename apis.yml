@@ -1,9 +1,31 @@
 aid: keep-network
 name: Keep Network
-description: Keep Network is a company surfaced as a portfolio company of a16z, multicoin-capital, paradigm
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Keep Network is a privacy-focused blockchain infrastructure project that
+  merged with NuCypher in 2021 to form the Threshold Network. Its flagship
+  product is tBTC, a decentralized, trust-minimized bridge that tokenizes
+  Bitcoin as the TBTC ERC-20 token so it can be used across Ethereum DeFi
+  without centralized custodians. Keep originally provided off-chain "keeps"
+  — private data containers secured by a threshold ECDSA signing network and a
+  random beacon — enabling confidential data to be used on public protocols.
+  The developer surface is on-chain Solidity smart contracts plus first-party
+  JavaScript/TypeScript client libraries published under the @keep-network npm
+  scope; there is no hosted REST API. This profile was surfaced as a VC
+  portfolio company and enriched from the project's public GitHub org, npm
+  packages, blog, and security.txt.
 url: https://raw.githubusercontent.com/api-evangelist/keep-network/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://github.com/keep-network.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,9 +36,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Blockchain
+- Cryptocurrency
+- Bitcoin
+- Ethereum
+- DeFi
+- Smart Contracts
+- Web3
+- Cryptography
+- Decentralized Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +55,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/keep-network-domain-security.yml
 - type: Website
   url: https://keep.network
+- type: GitHubOrganization
+  url: https://github.com/keep-network
+- type: Blog
+  url: https://blog.keep.network
+- type: Support
+  url: https://discord.gg/Threshold
+- type: Packages
+  url: packages/keep-network-packages.yml
+- type: SDKs
+  url: packages/keep-network-packages.yml
+- type: WellKnown
+  url: well-known/keep-network-well-known.yml
+- type: SecurityTxt
+  url: well-known/keep-network-security.txt
+- type: VulnerabilityDisclosure
+  url: security/keep-network-vulnerability-disclosure.yml
+- type: Security
+  url: https://github.com/threshold-network/solidity-contracts/blob/main/SECURITY.md
+- type: LLMsTxt
+  url: llms/keep-network-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
