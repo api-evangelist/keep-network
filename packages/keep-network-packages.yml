@@ -1,0 +1,81 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/org/keep-network
+packages:
+  - language: typescript
+    registry: npm
+    name: "@keep-network/tbtc-v2.ts"
+    url: https://www.npmjs.com/package/@keep-network/tbtc-v2.ts
+    install: npm install @keep-network/tbtc-v2.ts
+    description: TypeScript library providing bindings to the tBTC v2 system (trustless Bitcoin on Ethereum).
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@keep-network/tbtc.js"
+    url: https://www.npmjs.com/package/@keep-network/tbtc.js
+    install: npm install @keep-network/tbtc.js
+    description: JavaScript bindings to the tBTC system that establishes a TBTC token backed 1:1 by Bitcoin.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@keep-network/electrum-client-js"
+    url: https://www.npmjs.com/package/@keep-network/electrum-client-js
+    install: npm install @keep-network/electrum-client-js
+    description: Electrum protocol client for node.js and the browser.
+    official: true
+  - language: solidity
+    registry: npm
+    name: "@keep-network/tbtc-v2"
+    url: https://www.npmjs.com/package/@keep-network/tbtc-v2
+    install: npm install @keep-network/tbtc-v2
+    description: tBTC v2 smart contracts (trustlessly tokenized Bitcoin on Ethereum).
+    official: true
+  - language: solidity
+    registry: npm
+    name: "@keep-network/keep-core"
+    url: https://www.npmjs.com/package/@keep-network/keep-core
+    install: npm install @keep-network/keep-core
+    description: Smart contracts for the Keep Network core.
+    official: true
+  - language: solidity
+    registry: npm
+    name: "@keep-network/ecdsa"
+    url: https://www.npmjs.com/package/@keep-network/ecdsa
+    install: npm install @keep-network/ecdsa
+    description: Keep ECDSA wallet smart contracts.
+    official: true
+  - language: solidity
+    registry: npm
+    name: "@keep-network/random-beacon"
+    url: https://www.npmjs.com/package/@keep-network/random-beacon
+    install: npm install @keep-network/random-beacon
+    description: Keep Random Beacon smart contracts.
+    official: true
+  - language: solidity
+    registry: npm
+    name: "@keep-network/sortition-pools"
+    url: https://www.npmjs.com/package/@keep-network/sortition-pools
+    install: npm install @keep-network/sortition-pools
+    description: Logarithmic data structure for weighted sortition in Solidity.
+    official: true
+  - language: solidity
+    registry: npm
+    name: "@keep-network/coverage-pools"
+    url: https://www.npmjs.com/package/@keep-network/coverage-pools
+    install: npm install @keep-network/coverage-pools
+    description: A governable, fee-earning asset pool to cover low-likelihood on-chain events.
+    official: true
+  - language: solidity
+    registry: npm
+    name: "@keep-network/bitcoin-spv-sol"
+    url: https://www.npmjs.com/package/@keep-network/bitcoin-spv-sol
+    install: npm install @keep-network/bitcoin-spv-sol
+    description: Bitcoin SPV proofs in Solidity.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@keep-network/hardhat-helpers"
+    url: https://www.npmjs.com/package/@keep-network/hardhat-helpers
+    install: npm install @keep-network/hardhat-helpers
+    description: Hardhat plugin from Keep Network for smart-contract development.
+    official: true

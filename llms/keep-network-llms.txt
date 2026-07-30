@@ -1,0 +1,29 @@
+# Keep Network
+
+> Keep Network is a privacy-focused blockchain infrastructure project that merged with NuCypher to form the Threshold Network. Its flagship product is tBTC, a decentralized, trust-minimized bridge that tokenizes Bitcoin (as the TBTC ERC-20 token) for use in Ethereum DeFi without centralized custodians. The developer surface is on-chain smart contracts plus first-party JavaScript/TypeScript libraries — there is no hosted REST API.
+
+## About
+- Keep Network / Threshold Network: https://keep.network
+- Successor network (Threshold): https://threshold.network
+- tBTC dashboard: https://dashboard.threshold.network/tBTC
+- Blog: https://blog.keep.network
+
+## Code and SDKs
+- GitHub organization (106 repos): https://github.com/keep-network
+- tBTC v2 (Solidity contracts): https://www.npmjs.com/package/@keep-network/tbtc-v2
+- tBTC v2 TypeScript SDK: https://www.npmjs.com/package/@keep-network/tbtc-v2.ts
+- tbtc.js (JavaScript bindings): https://www.npmjs.com/package/@keep-network/tbtc.js
+- keep-core contracts: https://www.npmjs.com/package/@keep-network/keep-core
+- ECDSA wallet contracts: https://www.npmjs.com/package/@keep-network/ecdsa
+- Random Beacon contracts: https://www.npmjs.com/package/@keep-network/random-beacon
+- All @keep-network npm packages: https://www.npmjs.com/org/keep-network
+
+## Security
+- security.txt: https://keep.network/.well-known/security.txt
+- Security policy: https://github.com/threshold-network/solidity-contracts/blob/main/SECURITY.md
+- Disclosed vulnerabilities: https://threshold.network/disclosed-vulnerabilities
+- Security contact: security@threshold.network
+
+## Community
+- Discord: https://discord.gg/Threshold
+- X / Twitter: https://twitter.com/keep_project
